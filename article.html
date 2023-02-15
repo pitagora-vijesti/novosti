@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Full Article</title>
+    <link rel="stylesheet" href="articlestyle.css">
+  </head>
+  <body>
+    <header>
+    
+        <button id="login-btn" type="button">Prijava  <i class="fa fa-user" aria-hidden="true"></i></button>
+        <h1>Pitagora-vijesti</h1>
+        <form>
+          <input type="text" placeholder="Pretraži...">
+          <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        
+      </header>
+      
+        <nav>
+          <ul>
+            <li><a href="file:///C:/Users/Korisnik/Documents/PETAR/KOD/web/mat/index.html">početno</a></li>
+            <li><a href="#">vijesti</a></li>
+            <li><a href="#">radovi</a></li>
+            <li><a href="#">filmovi</a></li>
+            <li><a href="#">ostalo</a></li>
+          </ul>
+        </nav>
+    <main>
+        <section class="full-article">
+            <h2 id="article-title">Pitagora je jedan od najvećih matematičara ikada, ovo je njegov život </h2>
+            <div class="slider-container">
+              <input type="range" min="0" max="100" class="slider" step="1">
+              <div class="dots">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+                <div class="dot3"></div>
+              </div>
+              <div class="slider" id="slide">
+                <div class="slider-track">
+                  <img src="images/slika1.jpg" class="slider-image" id="image1">
+                  <img src="images/Slika2.jpg" class="slider-image" id="image2">
+                  <img src="images/slika3.jpg" class="slider-image" id="image3">
+                </div>
+              </div>
+              <div class="slider-value"></div>
+              <button class="prev-button"><i class="fa-solid fa-chevron-left"></i></button>
+              <button class="next-button"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+            <p id="article-content">Pitagora je bio grčki filozof i matematičar koji se smatra jednim od najvažnijih figura u povijesti matematike. <br><br> A sada kada ste ušli moramo vam reći da je nemogućee da itko zna točno datum na koji je Pitagora rođen zato što se sve to dešavalo jako davno. a pošto to niste znali reći ćemo vam nešto o Pitagori.<br> <br> Pitagorin život i djelovanje su okruženi velom tajne, jer nije ostalo mnogo pisanih dokumenata iz tog vremena. Međutim, prema legendama i nekim kasnijim izvorima, Pitagora je rođen u gradu Samu, na ostrvu Krf, oko 570. godine pr.Kr. Njegovi roditelji su bili trgovci i vjeruje se da su ga odgojili u vrlo učenoj atmosferi. <br> <br> Pitagora je, prema predaji, putovao po svijetu u ranom životu, studirajući matematiku, muziku i filozofiju u Egiptu i Babilonu. Vjeruje se da je bio učenik egipatskih svećenika i da je prošao kroz tešku inicijaciju u hramovima. <br> <br> Kada se vratio u Grčku, osnovao je školu u Krotonu, na jugu Italije, koja se smatrala jednom od najprestižnijih u antici. Pitagorinu školu su posjećivali učenici iz cijele Grčke, a učiteljstvo se sastojalo od različitih predmeta, uključujući matematiku, filozofiju, muziku, religiju i etiku. Pitagorejci su se bavili i praktičnim vještinama poput medicinskog znanja, trgovine i politike. <br> <br> Pitagora je smatran velikim učiteljem i njegove ideje su se širile po cijeloj Grčkoj. On je zagovarao duhovni i moralni napredak kroz matematiku i filozofiju. Pitagorini učenici su se okupljali u tajnim društvima, koji su se nazivali "pitagorejske sekte". Oni su se pridržavali stroge moralne discipline i prakticirali vegetarijanstvo. <br> <br> Pitagorin rad i teorije su se odrazili u mnogim područjima, posebno u matematici, koju je označio kao "božansku" disciplinu. Njegov rad na geometriji i brojevima je važan korak u razvoju matematike. Također, Pitagora je smatran pretečom platonizma i ideja o duši koja prelazi iz jednog života u drugi. Što danas naučavaju mnoge velike religije</p>
+        </section>
+        <aside class="related-articles">
+            <h3>Možda će vas zanimati:</h3>
+            <ul>
+                <li>
+                    <img src="images/related1.PNG" alt="Related Article 1">
+                    <a href="#">Crna istina o Pitagori</a>
+                    <p>Neki misle da je Pitagora bio samo matematičar. Ali evo što je on zapravo...</p>
+                </li>
+                <li>
+                    <img src="images/related2.png" alt="Related Article 2">
+                    <a href="#">Pitagora je osnovao sektu</a>
+                    <p>Pitagora nije bio samo matematičar, nego nešto puno gore...</p>
+                </li>
+                <li>
+                    <img src="images/related3.jpg" alt="Related Article 3">
+                    <a href="#">Vicevi o Pitagori</a>
+                    <p>Dođe Pitagora u klub i kaže: ...</p>
+                </li>
+            </ul>
+        </aside>
+        
+    </main>
+
+    <script src="script.js"></script>
+    <script src="https://kit-staging.fontawesome.com/6c0f9c4acc.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
