@@ -273,7 +273,7 @@ nav a:hover {
     font-size: 900;
   }
 
-@media only screen and (max-width: 860px) {
+@media screen and (max-width: 860px) {
   main{
     display: flex;
     width: 100%;
